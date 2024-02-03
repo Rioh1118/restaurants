@@ -9,9 +9,10 @@ name = "utils"
 path = "src/mod.rs"
 
 [dependencies]
-diesel={version="2.1.4", features=["postgres"]}
+diesel={version="2.1.4", features=["postgres","chrono"]}
 dotenv={version="0.15.0"}
 reqwest={version="0.11.4", features=["json"]}
 serde={version="1.0.130", features=["derive"]}
 tokio={version="1",features = ["full"]}
 thiserror={version="1.0"}
+chrono={version="0.4.19", features = ["serde"]}
