@@ -32,5 +32,5 @@ mod tests {
             Ok(Key::GooglePlaces(result)) => assert_eq!(result, "test_key"),
             _ => panic!("Unexpected result"),
         }
-    }   
+    }  
 }
